@@ -20,4 +20,8 @@ public class ColorUtils {
 	public static Color transparentColor() {
 		return transparent(solidColor());
 	}
+
+	public static Color snakeGreen() {
+		return new Color(34, 139, 34);
+	}
 }
